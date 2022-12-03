@@ -1,0 +1,21 @@
+{
+  "name": "bogster-vsc",
+  "displayName": "bogster-vsc",
+  "description": "A port of the bogster vim theme for vscode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Bogster",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Bogster-color-theme.json"
+      }
+    ]
+  }
+}
